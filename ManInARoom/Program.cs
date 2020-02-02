@@ -9,7 +9,8 @@ namespace ManInARoom
             var player = new Player();
             player.Direction = Direction.Right;
 
-            var area = new Area(7);
+            var room = new Room(7);
+            Room.FillCellsInRoom(room);
         }
     }
 }

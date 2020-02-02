@@ -6,7 +6,7 @@ namespace ManInARoom
 {
     public class Border
     {
-        public bool IsPassable { get; set; }
+        public bool IsPassable { get; set; } = true;
 
         public Border(bool isPassable = true)
         {
